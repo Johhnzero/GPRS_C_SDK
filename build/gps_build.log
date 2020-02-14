@@ -1,0 +1,69 @@
+[0;33m-- System Version : LINUX
+[0m---------------------------------------------------
+
+
+[MAKE]  init
+
+[1;35m[AR]   libinit_debug.a
+ 
+[0m
+
+[MAKE]  libs
+
+
+[MAKE]  libs/gps
+
+
+[MAKE]  libs/gps/minmea
+
+[1;35m[AR]   libminmea_debug.a
+ 
+[0m
+[1;35m[AR]   libgps_debug.a
+        |
+         -- libminmea_debug.a
+ 
+[0m
+
+[MAKE]  libs/utils
+
+[1;35m[AR]   libutils_debug.a
+ 
+[0m
+
+[MAKE]  libs/cjson
+
+[1;35m[AR]   libcjson_debug.a
+ 
+[0m
+[1;35m[AR]   liblibs_debug.a
+        |
+         -- libgps_debug.a
+        |
+         -- libutils_debug.a
+        |
+         -- libcjson_debug.a
+ 
+[0m
+
+[MAKE]  demo/gps
+
+[1;35m[AR]   libgps_debug.a
+ 
+[0m
+
+-----------------------------------------------
+[LDGEN]             >>> cust.ld
+[LD]                gps.elf
+[ElfCombine]        Elf binary & map file
+
+[GEN]               strip platform symbol
+                    |
+                     --/home/johhn/桌面/sdk_test/GPRS_C_SDK/platform/compilation/platform_symbols_to_strip
+
+[SREC]              gps.srec for flash/romulator
+[LOD]               /home/johhn/桌面/sdk_test/GPRS_C_SDK/hex/gps/gps_flash.lod
+[LODCOMBINE]        Combine with Platform lod
+[1;32m[LODCOMBINE]        Combine sucessful
+[0m
+====== Build Time: 1s complete at 2020-01-18 12:54:38 =======

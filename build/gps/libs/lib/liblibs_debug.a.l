@@ -1,0 +1,15 @@
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/api_debug.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/assert.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/buffer.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/cJSON.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/cJSON_Utils.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/gps.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/gps_parse.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/hal_gpio.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/log2f.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/log2.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/math.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/minmea.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/ntp.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/stdlib.o
+/home/johhn/桌面/sdk_test/GPRS_C_SDK/build/gps/libs/obj/debug/time.o
